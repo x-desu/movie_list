@@ -9,6 +9,7 @@
     let movieObj =[]
 
 
+ 
     const api = async (endpoint) => {
         spinnerEl.style.display = 'block';
     const response = await fetch(`https://www.omdbapi.com/?apikey=eb67946d&${endpoint}`)
